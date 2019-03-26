@@ -86,6 +86,7 @@ These variables are set in `defaults/main.yml`:
 #   program runs on the foreground, i.e. "nc -l 1234". Forking means the
 #   program itself forks, i.e. "nc -l 12345 &"
 # - working_directory: The directory to cd into before starting the service.
+# - environment_file: file path with environment  variables
 ```
 
 Requirements

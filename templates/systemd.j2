@@ -9,6 +9,9 @@ Type={{ item.type }}
 {% if item.working_directory is defined %}
 WorkingDirectory={{ item.working_directory }}
 {% endif %}
+{% if item.environment_file is defined %}
+EnvironmentFile={{ item.environment_file }}
+{% endif %}
 {% if item.user_name is defined %}
 User={{ item.user_name }}
 {% endif %}
